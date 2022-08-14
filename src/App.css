@@ -1,0 +1,179 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #262C3A ;
+  display: grid;
+}
+
+header{
+  display: flex;
+  width: 90%;
+  height: 10vh;
+  margin: auto;
+  align-items: center;
+}
+
+h1 {
+  color: #fff;
+  font-size: 50px;
+}
+
+.logo-container
+{
+  display: flex;
+}
+
+.logo-container{
+  flex: 1;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+  nav{
+    padding: 0;
+    flex-direction: row;
+  }
+}
+
+/* .nav-links{
+  justify-content: space-around;
+  list-style: none;
+} */
+
+.nav-link{
+  color: #FFF;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    padding: .5rem;
+    margin-right: 1rem;
+}
+
+.presentation{
+  display: flex;
+  width: 90%;
+  margin: auto;
+  min-height: 80vh;
+  align-items: center;
+}
+
+.introduction{
+  flex: 1;
+}
+
+.intro-text h1{
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.intro-text p{
+  margin-top: 5px;
+  font-size: 22px;
+  color: #fff;
+}
+
+.search{
+  padding: 50px 0px 0px 0px;
+}
+.buttom-search{
+  width: 350px;
+  height: 45px;
+  border-radius: 20px;
+  font-size: 16px;
+  margin: 20px 0px 0px 20px;
+}
+.cta-select{
+  width: 150px;
+  height: 50px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.cover{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  height: 60vh;
+}
+
+.cover img{
+  height: 100%;
+  filter: drop-shadow(0px 5px 3px black);
+  animation: drop 1.5s ease;
+}
+
+.content{
+  padding: 80px 10px;
+}
+
+.who{
+  color: #ffffff;
+}
+
+.who p{
+  max-width: 1055px;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+.list-services{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-services figure{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+.list-services figure{
+  position: relative;
+  width: 150px;
+  height: 190px;
+}
+
+.list-services figure:after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  z-index: 0;
+  background: #ffffff;
+  width: 150px;
+  height: 150px;
+}
+
+.list-services img{
+  position: relative;
+  z-index: 1;
+}
+
+.list-services li{
+  padding: 0 30px;
+}
+
+.list-services figcaption{
+  position: relative;
+  left: 0;
+  top: 0;
+  bottom: -40px;
+}
