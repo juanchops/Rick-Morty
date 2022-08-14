@@ -1,3 +1,4 @@
+# Actually, this is more like a branch of another repository to play around. 
 # Ricky and Morty
 
 _Este proyecto consiste en la realización y maquetación del Front End, la cual estará consumiendo una API de Ricky and Morty [RickyandMorty](https://rickandmortyapi.com/)_
